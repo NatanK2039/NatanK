@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Natan Kolodziej </title>
     <link rel = "stylesheet" href="./index.css">
-
-    <h1> Natan Kolodziej</h1>
-    <nav> <!--This is the navigation bar -->
-        <button type="button" onclick="location.href='./PersonalStatementAndCv.html'">Professional background</button> <!--This is the first button which acts as a link to the menu pag -->
-    </nav><!--the navigation bar is closed -->
+    <script src="./indexjs.js"></script>
 </head>
 
+<body>
+    <h1> Natan Kolodziej</h1>
+    <nav> <!--This is the navigation bar -->
+        <button id = "ProfessionalBackgroundButton">Professional Background</button>
+        <div id = "DropDownDiv">
+            <select size = "2">
+                <option value = "SkillsSummary">Summary of Skills</option>   
+                <option value = "CV">CV</option> 
+            </select>
+        </div>
+    </nav><!--the navigation bar is closed -->
+</body>
 
