@@ -11,17 +11,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Event listener to trigger the toggleDropdown function when the button is clicked
     button.addEventListener("click", toggleDropdown);
   
-    // Event listener for the options in the dropdown
     for (var i = 0; i < options.length; i++) {
       options[i].addEventListener("click", function() {
         var selectedValue = this.value;
         // Redirect the user to the appropriate page based on the selected option
         if (selectedValue === "SkillsSummary") {
-          window.location.href = "./SummaryOfSkills.html"; // Replace with the desired URL
+          window.location.href = "SummaryOfSkills.html"; // Replace with the desired URL
         } else if (selectedValue === "CV") {
-          window.location.href = "./CV.html"; // Replace with the desired URL
+          window.location.href = "CV.html"; // Replace with the desired URL
         }
       });
     }
+    
   });
   

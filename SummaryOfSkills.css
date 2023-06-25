@@ -13,9 +13,7 @@ body {
 }
 
 #AvailableSpace {
-    max-width: 1400px;
-    position: absolute;
-    left: 5%;
+    margin: 2%;
 }
 
 #ContentSection {
@@ -26,10 +24,6 @@ body {
     height: 100%;
     color: yellow;  
     font-size: 20px;
-}
-
-#PersonalStatementArticle {
-    max-width: 55%;
 }
 
 article {
