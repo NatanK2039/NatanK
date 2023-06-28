@@ -5,16 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Natan Kolodziej </title>
-    <link rel = "stylesheet" href="./SummaryOfSkills.css">
-
-    <h1> Natan Kolodziej</h1>
-    <nav> <!--This is the navigation bar -->
-        <button type="button" onclick="location.href='./index.html'">Main Page</button> <!--This is the first button which acts as a link to the menu pag -->
-    </nav><!--the navigation bar is closed -->
+    <link rel = "stylesheet" href="./StandardCss.css">
 </head>
 
 <body>
+    <h1> Natan Kolodziej</h1>
+    <nav> <!--This is the navigation bar -->
+        <button class = "NavigationButton" onclick="location.href='./index.html'">Main Page</button>
+        <button class = "NavigationButton" onclick="location.href='./ProjectSummary.html'">Projects</button>
+        <div id ="DropDownProfessionalBackground">
+          <button id = "ProfessionalBackgroundButton" class = "NavigationButton">Professional Background</button>
+          <div id ="ProfessionalBackgroundLinks">
+            <a href="./CV.html">CV</a>
+            <a href="./SummaryOfSkills.html">Summary Of Skills</a>
+          </div>
+        </div>
+    </nav> 
     <section id = "AvailableSpace">
+        <section id = "ContentSection">
             <article id = "SkillsArticle">
                 <p> Personal Profile <br> <br>
                     In addition to having good attention to detail and developed problem solving skills, I am also very creative which helps me deal with various challenging situations and problems in innovative and efficient ways. Furthermore, I am resilient, positive, and determined so even on the occasions that attempts at finding a solution fail, I will keep going until I succeed and complete the task or goal. <br>
